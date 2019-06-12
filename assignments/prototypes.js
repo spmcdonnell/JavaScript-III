@@ -104,7 +104,7 @@ Hero.prototype.attack = function(victim) {
   if (victim.healthPoints <= 0) {
     return `Our hero attacked ${victim.name} and killed them!`;
   } else {
-    return `Our hero attacked ${victim.name} and reduced their healthPoints by 5 points, bringing it to ${victim.healthPoints}.`;
+    return `Our hero attacked ${victim.name} and reduced their healthPoints by 5 points, bringing their remaining HP to ${victim.healthPoints}.`;
   }
 };
  
